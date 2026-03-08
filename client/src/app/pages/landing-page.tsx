@@ -56,7 +56,7 @@ export function LandingPage() {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-lg border border-[#3CC9A0]/20"
               >
                 <Sparkles className="w-4 h-4 text-[#3CC9A0]" />
-                <span className="text-sm font-bold text-[#0D4A3A]">Trusted by 50,000+ Travelers</span>
+                <span className="text-sm font-bold text-[#0D4A3A]">Trusted by 1,000+ Travelers</span>
               </motion.div>
 
               <div className="space-y-4">
@@ -67,15 +67,15 @@ export function LandingPage() {
                     transition={{ delay: 0.3 }}
                     className="block"
                   >
-                    Discover Local
-                  </motion.span>
+                       Travel More.                 
+                      </motion.span>
                   <motion.span
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4 }}
                     className="block bg-gradient-to-r from-[#0D4A3A] to-[#3CC9A0] bg-clip-text text-transparent"
                   >
-                    Adventures
+                     Plan Less.
                   </motion.span>
                 </h1>
                 <motion.p
@@ -237,7 +237,7 @@ export function LandingPage() {
                   <Award className="w-6 h-6" />
                   <div>
                     <div className="text-sm font-bold">Verified</div>
-                    <div className="text-xs opacity-90">Pro Guides</div>
+                    <div className="text-xs opacity-90">Guides</div>
                   </div>
                 </div>
               </motion.div>
@@ -288,7 +288,7 @@ export function LandingPage() {
               <Globe className="w-4 h-4 text-[#0D4A3A]" />
               <span className="text-sm font-bold text-[#0D4A3A]">Why Choose Us</span>
             </motion.div>
-            <h2 className="text-5xl font-bold text-[#0D4A3A] mb-4">Why Choose GuideHub</h2>
+            <h2 className="text-5xl font-bold text-[#0D4A3A] mb-4">Why Choose Touri</h2>
             <p className="text-xl text-[#0A1628]/70 max-w-2xl mx-auto">
               Experience travel like never before with our verified professional guides
             </p>
@@ -381,19 +381,19 @@ export function LandingPage() {
               {
                 name: "Sarah Johnson",
                 role: "Traveler from NYC",
-                text: "Our guide made our Barcelona trip unforgettable! The local insights and personalized attention were worth every penny.",
+                text: "Our guide made our Aswan trip unforgettable! The local insights and personalized attention were worth every penny.",
                 image: "https://images.unsplash.com/photo-1601734327281-438e2fa9930b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhc2lhbiUyMGZlbWFsZSUyMHRvdXIlMjBndWlkZSUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NzI0MTY0MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
               },
               {
                 name: "Michael Chen",
                 role: "Business Traveler",
-                text: "GuideHub connected me with an amazing local guide in Tokyo. Professional, knowledgeable, and made booking so easy.",
+                text: "Touri connected me with an amazing local guide in Aswan. Professional, knowledgeable, and made booking so easy.",
                 image: "https://images.unsplash.com/photo-1697043593597-b75ca6112914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaXNwYW5pYyUyMG1hbGUlMjB0b3VyJTIwZ3VpZGUlMjBzbWlsaW5nfGVufDF8fHx8MTc3MjQxNjQxNnww&ixlib=rb-4.1.0&q=80&w=1080",
               },
               {
                 name: "Emily Rodriguez",
                 role: "Adventure Seeker",
-                text: "I've used GuideHub in 5 different countries. The quality of guides is consistently excellent. Highly recommend!",
+                text: "I've used Touri in 5 different countries. The quality of guides is consistently excellent. Highly recommend!",
                 image: "https://images.unsplash.com/photo-1666113604293-d34734339acb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYXRpc2ZpZWQlMjBjbGllbnQlMjB0ZXN0aW1vbmlhbCUyMGhlYWRzaG90fGVufDF8fHx8MTc3MjQxNjQyMHww&ixlib=rb-4.1.0&q=80&w=1080",
               },
             ].map((testimonial, i) => (
@@ -512,11 +512,11 @@ export function LandingPage() {
               transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
               className="w-10 h-10 rounded-full bg-[#3CC9A0] flex items-center justify-center"
             >
-              <span className="text-white font-bold text-xl">G</span>
+              <span className="text-white font-bold text-xl">T</span>
             </motion.div>
-            <span className="text-2xl font-bold">GuideHub</span>
+            <span className="text-2xl font-bold">Touri</span>
           </motion.div>
-          <p className="text-white/60">© 2026 GuideHub. All rights reserved.</p>
+          <p className="text-white/60">© 2026 Touri. All rights reserved.</p>
         </div>
       </footer>
     </div>

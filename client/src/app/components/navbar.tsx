@@ -1,6 +1,7 @@
 import { Link, useLocation, useNavigate } from "react-router";
 import { useAuth } from "../context/AuthContext";
 import { MessageCircle, LogOut, User } from "lucide-react";
+import touriLogo from "./figma/touri-logo-transparent.png";
 
 export function Navbar() {
   const location = useLocation();
@@ -22,10 +23,8 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-[#0D4A3A] flex items-center justify-center">
-              <span className="text-white font-bold text-xl">G</span>
-            </div>
-            <span className="text-2xl font-bold text-[#0D4A3A]">Touri</span>
+            <img src={touriLogo} alt="Touri Logo" className="h-25 w-auto" />
+            {/* <span className="text-2xl font-bold text-[#0D4A3A]">Touri</span> */}
           </Link>
 
           {/* Nav Links */}
